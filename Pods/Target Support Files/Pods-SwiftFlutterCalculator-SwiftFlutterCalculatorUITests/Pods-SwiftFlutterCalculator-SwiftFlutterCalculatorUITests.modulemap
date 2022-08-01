@@ -1,0 +1,6 @@
+framework module Pods_SwiftFlutterCalculator_SwiftFlutterCalculatorUITests {
+  umbrella header "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

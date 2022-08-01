@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SwiftFlutterCalculator_SwiftFlutterCalculatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SwiftFlutterCalculator_SwiftFlutterCalculatorUITests
+@end

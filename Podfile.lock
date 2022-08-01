@@ -1,0 +1,28 @@
+PODS:
+  - calculator_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - calculator_flutter (from `../calculator_new/.ios/Flutter`)
+  - Flutter (from `../calculator_new/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../calculator_new/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  calculator_flutter:
+    :path: "../calculator_new/.ios/Flutter"
+  Flutter:
+    :path: "../calculator_new/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../calculator_new/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  calculator_flutter: f46ab67e8c9b77c099c8133607625b7e9fffa259
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: d3a0fbc12bc47787a12fcc919193f3959aa7d5ad
+
+PODFILE CHECKSUM: c11088b51dfc5e17cd1615536b1d2a45329e40a0
+
+COCOAPODS: 1.11.3

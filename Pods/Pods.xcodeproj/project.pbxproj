@@ -1,0 +1,1278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A7E0AD0862C943EE8AC683E481B48EB /* calculator_flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05F70BCE59B60434760782BA0DC7DE90 /* Build configuration list for PBXAggregateTarget "calculator_flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CDB3B18A27C88723D33D2517855559EE /* PBXTargetDependency */,
+			);
+			name = calculator_flutter;
+		};
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+				1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04F93F7CD440B56094F7D99B82B2B4D4 /* Pods-SwiftFlutterCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A460FD49BF6997023F707F14AA1BC /* Pods-SwiftFlutterCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235B574354CA1030496D2EFB7AD93C5E /* Pods-SwiftFlutterCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3641E35DD7881F756756A37A333E53EB /* Pods-SwiftFlutterCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D6004E528C6FFA541BB4EB70F856E8 /* Pods-SwiftFlutterCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AA2F3D6533FC8B9DE7FA3CFFE398C /* Pods-SwiftFlutterCalculator-dummy.m */; };
+		689854F09E56328C59D66D6AB3AE2595 /* Pods-SwiftFlutterCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4610B93985946D2C4B3938F90F3FA24 /* Pods-SwiftFlutterCalculatorTests-dummy.m */; };
+		6A0EEDB2DE0558D0B1A8C8F5CDD77D7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F5603B5F12F77863F8F8B2BE7B6F157 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F85480980503CAC78DD4E726BC316 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A50B903A97BBBC5DAD1D25C015D3A34 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D7B66623D95E36CA9DF14918150A8 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m */; };
+		A990BB48CE1FF605D6385981006A31ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ABE7B39E792A2333D608D9C3B4249382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AF07860509508B0B04FCFA9651ADB9CB /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E779613D8A0A2B9822129AF92675EDC /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB2C5256A6E4F83C2870B84A985595F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB9621EE73F1EF8DF47831E5A830463B /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CE749FD4AB6499C43E5B579795D10C /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D837330AA3A84258FE47D290F97FCC /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EC64C9908CB5E5C2B414F253F6553A /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEEB61B1EF6CB43D93A55150E49DEFEC /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E49C92F8223E762F3441FDB8D91725 /* FlutterPluginRegistrant-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002C50F6E5C53EB172F3FF3B2D29C299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		0185D36E88DFB2996E86BECEE398651E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E0AD0862C943EE8AC683E481B48EB;
+			remoteInfo = calculator_flutter;
+		};
+		2D320170FE411404FB7E8AA33BDB00EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		3644C05463880BF81E55A7A2531F0919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7E0AD0862C943EE8AC683E481B48EB;
+			remoteInfo = calculator_flutter;
+		};
+		543D178921A739438062F769A4614836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9782DE355BAD50FBABBAC5C1B914C5EF;
+			remoteInfo = "Pods-SwiftFlutterCalculator";
+		};
+		62ABC16DF3048B0E267742214EC18807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		761948752BEA86258013EB398FA99A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		89FAC474B253C540C3B30708F3636B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		CF59B93C2CEC242B4DC47AD5967624A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036316048124F291E570DC8B4D28A67D /* Pods-SwiftFlutterCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculator-Info.plist"; sourceTree = "<group>"; };
+		18DE30CF574FCA57EF156E8D1DD2C538 /* Pods-SwiftFlutterCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		1E39D385F5D5FCD445B1EE0E69FA687D /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		1FC0C66C985BEA7B18169CA174A2EEA9 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		25455CC51C5CE93F1D83BA4321732ECC /* Pods-SwiftFlutterCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftFlutterCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D78DF4D3582CB2AE2FB3995F3BA5970 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		3641E35DD7881F756756A37A333E53EB /* Pods-SwiftFlutterCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftFlutterCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		3F8725D010836BA894CEB3B2A5B660AA /* Pods-SwiftFlutterCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4106746565102BA2F673490C1A8F2357 /* calculator_flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = calculator_flutter.debug.xcconfig; sourceTree = "<group>"; };
+		425592FCA067683B5F1CE96D0FF45BA1 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		481A460FD49BF6997023F707F14AA1BC /* Pods-SwiftFlutterCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftFlutterCalculator-umbrella.h"; sourceTree = "<group>"; };
+		498E5AE97FA5C6FE1030DD8B6B397A36 /* Pods-SwiftFlutterCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftFlutterCalculator.modulemap"; sourceTree = "<group>"; };
+		4A131E6D2E018BA3C4E757CD7702C383 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		536AA2F3D6533FC8B9DE7FA3CFFE398C /* Pods-SwiftFlutterCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftFlutterCalculator-dummy.m"; sourceTree = "<group>"; };
+		6A6BDDDFA466E9A90FF6C90BE0DC77E4 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-Info.plist"; sourceTree = "<group>"; };
+		6B18E38DE738511D6BEB52325FAFAB67 /* Pods-SwiftFlutterCalculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftFlutterCalculator"; path = Pods_SwiftFlutterCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E70A426D42922B6E39214C4636C85 /* Pods-SwiftFlutterCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CF1A1AD11B6B5B7A1E364484A393E0C /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70C056091E46E1DFC97701E4211FCF09 /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
+		7139127A8C01ECC88B5EA5BE3EE1C405 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A0F85480980503CAC78DD4E726BC316 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		7E336C3806F3B5C5E22F1ECD9C57C4B6 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		8019D47C7A6B2E9A287E2B00D5E9A7E3 /* Pods-SwiftFlutterCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		881B960F1D834BCA61EEE51F599D6156 /* Pods-SwiftFlutterCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftFlutterCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88721790AB69D3BAE6CBE1B540FECD24 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		904D7B66623D95E36CA9DF14918150A8 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		977F04F7EA0C5EE546B5DCF7FCCCA2B6 /* Pods-SwiftFlutterCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftFlutterCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		9C90BEEECF648D299F06BA009E7D1601 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E779613D8A0A2B9822129AF92675EDC /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		A312E2D5214A99E22D3EA7B397A5520B /* Pods-SwiftFlutterCalculatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		A8EC64C9908CB5E5C2B414F253F6553A /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
+		AA90AD4F82D4E805C3D4CC94981BAE4F /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABE50983EEAA331FBB6D231B58CB45AE /* Pods-SwiftFlutterCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftFlutterCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		AF8FF853E37BB9D5304377FADFCAB909 /* FlutterPluginRegistrant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterPluginRegistrant-Info.plist"; sourceTree = "<group>"; };
+		B2CE749FD4AB6499C43E5B579795D10C /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		B877D09CC47AE5B74458A34D8116FFA6 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD18604A96B4CEF6AC639205D4D181CE /* calculator_flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = calculator_flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D175979477CD5C157894E19CCDD55B32 /* Pods-SwiftFlutterCalculatorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftFlutterCalculatorTests"; path = Pods_SwiftFlutterCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34CA1523C0B9B565D1C71072F33839F /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
+		D4610B93985946D2C4B3938F90F3FA24 /* Pods-SwiftFlutterCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftFlutterCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterPluginRegistrant; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A1EFFAA4C38F8341510B9F71D715C /* calculator_flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = calculator_flutter.release.xcconfig; sourceTree = "<group>"; };
+		F538E41CA1378CD672923C3C6CABE1A1 /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
+		F6E49C92F8223E762F3441FDB8D91725 /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
+		F8AAE728D2161F7DEA2801504F2E1000 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		FB7AD5A719AE930C594E234F1CE9DEB1 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests"; path = Pods_SwiftFlutterCalculator_SwiftFlutterCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7DE72B2ADD79AC9E7648A2FD9A7D86 /* Pods-SwiftFlutterCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFlutterCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		FD07BB498933321C2DBC0A2822B8F3A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FD8C8721AEEDCA9EC8210EFF8A608CAC /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE69F43260001A7DB5073FA020DA000A /* Pods-SwiftFlutterCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFlutterCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0711197A09145538F5EDB0FD9B3EA79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0EEDB2DE0558D0B1A8C8F5CDD77D7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF6E84F45BC634027C12056F17AE90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2C5256A6E4F83C2870B84A985595F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33BC0FE55C33563CDBEA23B02E01CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE7B39E792A2333D608D9C3B4249382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C551DA9B83C237D73D02819373A929A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A990BB48CE1FF605D6385981006A31ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B76C7567EA69A5612ABB582EDF1E8B /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE749FD4AB6499C43E5B579795D10C /* GeneratedPluginRegistrant.h */,
+				9E779613D8A0A2B9822129AF92675EDC /* GeneratedPluginRegistrant.m */,
+				49DFC5433A40CCFBED42198B9A4BD175 /* Pod */,
+				D91BFF945CB63655F5CF005F8C38CEC5 /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = ../../calculator_new/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		3FF3484B35B581B1FE3856043C44FA8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED69C66A0E189ED883FA757E62CC10BF /* calculator_flutter */,
+				D794810513DB476A454B43A2AACE737B /* Flutter */,
+				21B76C7567EA69A5612ABB582EDF1E8B /* FlutterPluginRegistrant */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		49DFC5433A40CCFBED42198B9A4BD175 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C8721AEEDCA9EC8210EFF8A608CAC /* FlutterPluginRegistrant.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		55DD2BB24BD08DC752D5116D66B7B851 /* Pods-SwiftFlutterCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE50983EEAA331FBB6D231B58CB45AE /* Pods-SwiftFlutterCalculatorTests.modulemap */,
+				881B960F1D834BCA61EEE51F599D6156 /* Pods-SwiftFlutterCalculatorTests-acknowledgements.markdown */,
+				FE69F43260001A7DB5073FA020DA000A /* Pods-SwiftFlutterCalculatorTests-acknowledgements.plist */,
+				D4610B93985946D2C4B3938F90F3FA24 /* Pods-SwiftFlutterCalculatorTests-dummy.m */,
+				A312E2D5214A99E22D3EA7B397A5520B /* Pods-SwiftFlutterCalculatorTests-Info.plist */,
+				3641E35DD7881F756756A37A333E53EB /* Pods-SwiftFlutterCalculatorTests-umbrella.h */,
+				3F8725D010836BA894CEB3B2A5B660AA /* Pods-SwiftFlutterCalculatorTests.debug.xcconfig */,
+				6C7E70A426D42922B6E39214C4636C85 /* Pods-SwiftFlutterCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftFlutterCalculatorTests";
+			path = "Target Support Files/Pods-SwiftFlutterCalculatorTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5967482ADC34DCF2257BCAA2459F7DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C90BEEECF648D299F06BA009E7D1601 /* App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BBF89125580A7E7A802A604B1180B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */,
+				6B18E38DE738511D6BEB52325FAFAB67 /* Pods-SwiftFlutterCalculator */,
+				FB7AD5A719AE930C594E234F1CE9DEB1 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */,
+				D175979477CD5C157894E19CCDD55B32 /* Pods-SwiftFlutterCalculatorTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C23BE3E6C05A04750610D449088B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E336C3806F3B5C5E22F1ECD9C57C4B6 /* Flutter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8455ED18DB00EB4722C19067C56CE66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA90AD4F82D4E805C3D4CC94981BAE4F /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CA6E453408BC8480B08614E4DA7A9B00 /* Pods-SwiftFlutterCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				498E5AE97FA5C6FE1030DD8B6B397A36 /* Pods-SwiftFlutterCalculator.modulemap */,
+				25455CC51C5CE93F1D83BA4321732ECC /* Pods-SwiftFlutterCalculator-acknowledgements.markdown */,
+				8019D47C7A6B2E9A287E2B00D5E9A7E3 /* Pods-SwiftFlutterCalculator-acknowledgements.plist */,
+				536AA2F3D6533FC8B9DE7FA3CFFE398C /* Pods-SwiftFlutterCalculator-dummy.m */,
+				977F04F7EA0C5EE546B5DCF7FCCCA2B6 /* Pods-SwiftFlutterCalculator-frameworks.sh */,
+				036316048124F291E570DC8B4D28A67D /* Pods-SwiftFlutterCalculator-Info.plist */,
+				481A460FD49BF6997023F707F14AA1BC /* Pods-SwiftFlutterCalculator-umbrella.h */,
+				18DE30CF574FCA57EF156E8D1DD2C538 /* Pods-SwiftFlutterCalculator.debug.xcconfig */,
+				FB7DE72B2ADD79AC9E7648A2FD9A7D86 /* Pods-SwiftFlutterCalculator.release.xcconfig */,
+			);
+			name = "Pods-SwiftFlutterCalculator";
+			path = "Target Support Files/Pods-SwiftFlutterCalculator";
+			sourceTree = "<group>";
+		};
+		CD7CCF5B5B1CABAD8074AF0709571808 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4106746565102BA2F673490C1A8F2357 /* calculator_flutter.debug.xcconfig */,
+				E86A1EFFAA4C38F8341510B9F71D715C /* calculator_flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../SwiftFlutterCalculator/Pods/Target Support Files/calculator_flutter";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3FF3484B35B581B1FE3856043C44FA8D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5BBF89125580A7E7A802A604B1180B85 /* Products */,
+				F60F022583C1C2AB4AF0D7425AE1E86A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23ED951A9F55315BC49821205411181 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C056091E46E1DFC97701E4211FCF09 /* Flutter-xcframeworks.sh */,
+				425592FCA067683B5F1CE96D0FF45BA1 /* Flutter.debug.xcconfig */,
+				1E39D385F5D5FCD445B1EE0E69FA687D /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../SwiftFlutterCalculator/Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		D794810513DB476A454B43A2AACE737B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				81C23BE3E6C05A04750610D449088B1D /* Frameworks */,
+				A8455ED18DB00EB4722C19067C56CE66 /* Pod */,
+				D23ED951A9F55315BC49821205411181 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../../calculator_new/.ios/Flutter/engine;
+			sourceTree = "<group>";
+		};
+		D91BFF945CB63655F5CF005F8C38CEC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D78DF4D3582CB2AE2FB3995F3BA5970 /* FlutterPluginRegistrant.modulemap */,
+				F6E49C92F8223E762F3441FDB8D91725 /* FlutterPluginRegistrant-dummy.m */,
+				AF8FF853E37BB9D5304377FADFCAB909 /* FlutterPluginRegistrant-Info.plist */,
+				D34CA1523C0B9B565D1C71072F33839F /* FlutterPluginRegistrant-prefix.pch */,
+				A8EC64C9908CB5E5C2B414F253F6553A /* FlutterPluginRegistrant-umbrella.h */,
+				1FC0C66C985BEA7B18169CA174A2EEA9 /* FlutterPluginRegistrant.debug.xcconfig */,
+				F538E41CA1378CD672923C3C6CABE1A1 /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../SwiftFlutterCalculator/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		ED69C66A0E189ED883FA757E62CC10BF /* calculator_flutter */ = {
+			isa = PBXGroup;
+			children = (
+				5967482ADC34DCF2257BCAA2459F7DC5 /* Frameworks */,
+				F104DA60BD20486039804CB69713AFE5 /* Pod */,
+				CD7CCF5B5B1CABAD8074AF0709571808 /* Support Files */,
+			);
+			name = calculator_flutter;
+			path = ../../calculator_new/.ios/Flutter;
+			sourceTree = "<group>";
+		};
+		F104DA60BD20486039804CB69713AFE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD18604A96B4CEF6AC639205D4D181CE /* calculator_flutter.podspec */,
+				FD07BB498933321C2DBC0A2822B8F3A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F60F022583C1C2AB4AF0D7425AE1E86A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6E453408BC8480B08614E4DA7A9B00 /* Pods-SwiftFlutterCalculator */,
+				FDCFB92C669D7E8EC1B83061EA59AAC4 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */,
+				55DD2BB24BD08DC752D5116D66B7B851 /* Pods-SwiftFlutterCalculatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDCFB92C669D7E8EC1B83061EA59AAC4 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAE728D2161F7DEA2801504F2E1000 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.modulemap */,
+				6CF1A1AD11B6B5B7A1E364484A393E0C /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.markdown */,
+				B877D09CC47AE5B74458A34D8116FFA6 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-acknowledgements.plist */,
+				904D7B66623D95E36CA9DF14918150A8 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m */,
+				88721790AB69D3BAE6CBE1B540FECD24 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-frameworks.sh */,
+				6A6BDDDFA466E9A90FF6C90BE0DC77E4 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-Info.plist */,
+				7A0F85480980503CAC78DD4E726BC316 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h */,
+				4A131E6D2E018BA3C4E757CD7702C383 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.debug.xcconfig */,
+				7139127A8C01ECC88B5EA5BE3EE1C405 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests";
+			path = "Target Support Files/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06621D89308B2CC1126856B736F76D70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5603B5F12F77863F8F8B2BE7B6F157 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A0B16809B328CFB18C125950DD937E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F93F7CD440B56094F7D99B82B2B4D4 /* Pods-SwiftFlutterCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326162EC909150070A4FC16954EF73AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235B574354CA1030496D2EFB7AD93C5E /* Pods-SwiftFlutterCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA459D0BD93513D5F24E7411C2A08C96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D837330AA3A84258FE47D290F97FCC /* FlutterPluginRegistrant-umbrella.h in Headers */,
+				DB9621EE73F1EF8DF47831E5A830463B /* GeneratedPluginRegistrant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BF3DBAFE52AA8BFB11AC689F20DA951 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C1FD87F0E4D62CCC002567264FC639 /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests" */;
+			buildPhases = (
+				06621D89308B2CC1126856B736F76D70 /* Headers */,
+				7E04057EA808EAAEE7EDB4D28E86D1DB /* Sources */,
+				C551DA9B83C237D73D02819373A929A1 /* Frameworks */,
+				0771E26BD59BCF47D1D082BF268E1981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97BF62A9282EEFF0CE5D6388E796A41 /* PBXTargetDependency */,
+				28744428ACCB0C8771A40AB77F90A0EC /* PBXTargetDependency */,
+				A62BC2D7DB0D9435904752CF3E9EF822 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests";
+			productName = Pods_SwiftFlutterCalculator_SwiftFlutterCalculatorUITests;
+			productReference = FB7AD5A719AE930C594E234F1CE9DEB1 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00470BE9A38CC7D755DFD45B84649A66 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				FA459D0BD93513D5F24E7411C2A08C96 /* Headers */,
+				062029AE18594914186BF8410A0C6679 /* Sources */,
+				0711197A09145538F5EDB0FD9B3EA79F /* Frameworks */,
+				AC5425D4F4D4153C7FBD87B7C8C95626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B85E86F65A30EB9CB13B398BEAB365 /* PBXTargetDependency */,
+			);
+			name = FlutterPluginRegistrant;
+			productName = FlutterPluginRegistrant;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */;
+			productType = "com.apple.product-type.framework";
+		};
+		9782DE355BAD50FBABBAC5C1B914C5EF /* Pods-SwiftFlutterCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6487FEF38AF7FA1F90E5256C890B56C2 /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculator" */;
+			buildPhases = (
+				25A0B16809B328CFB18C125950DD937E /* Headers */,
+				F50CF3B6393EC6787F61CA98314DD8BC /* Sources */,
+				B33BC0FE55C33563CDBEA23B02E01CB0 /* Frameworks */,
+				A6D6DEE448FC11B743DEBDE643582996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF4BA65846B968E68E9166DBF4D7FF5 /* PBXTargetDependency */,
+				89112FD0DAF335B38FD4703CE57069EB /* PBXTargetDependency */,
+				DFAFE3C33DD4BF163C5C7D181ED9BBC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftFlutterCalculator";
+			productName = Pods_SwiftFlutterCalculator;
+			productReference = 6B18E38DE738511D6BEB52325FAFAB67 /* Pods-SwiftFlutterCalculator */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2E4E563BF38F198CFC3A035234E2917 /* Pods-SwiftFlutterCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1215DAB08D934200D6B937BF50561FBD /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculatorTests" */;
+			buildPhases = (
+				326162EC909150070A4FC16954EF73AA /* Headers */,
+				3EFFAF6FA51CAEBF0A640FA065D3E309 /* Sources */,
+				8FF6E84F45BC634027C12056F17AE90C /* Frameworks */,
+				5446E46274437C59225EA39A52E43F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F65F3C42543062230FE58FB1CEBD40 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftFlutterCalculatorTests";
+			productName = Pods_SwiftFlutterCalculatorTests;
+			productReference = D175979477CD5C157894E19CCDD55B32 /* Pods-SwiftFlutterCalculatorTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5BBF89125580A7E7A802A604B1180B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7E0AD0862C943EE8AC683E481B48EB /* calculator_flutter */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				9782DE355BAD50FBABBAC5C1B914C5EF /* Pods-SwiftFlutterCalculator */,
+				0BF3DBAFE52AA8BFB11AC689F20DA951 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests */,
+				B2E4E563BF38F198CFC3A035234E2917 /* Pods-SwiftFlutterCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0771E26BD59BCF47D1D082BF268E1981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5446E46274437C59225EA39A52E43F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6DEE448FC11B743DEBDE643582996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5425D4F4D4153C7FBD87B7C8C95626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062029AE18594914186BF8410A0C6679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB61B1EF6CB43D93A55150E49DEFEC /* FlutterPluginRegistrant-dummy.m in Sources */,
+				AF07860509508B0B04FCFA9651ADB9CB /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFFAF6FA51CAEBF0A640FA065D3E309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689854F09E56328C59D66D6AB3AE2595 /* Pods-SwiftFlutterCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E04057EA808EAAEE7EDB4D28E86D1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A50B903A97BBBC5DAD1D25C015D3A34 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50CF3B6393EC6787F61CA98314DD8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D6004E528C6FFA541BB4EB70F856E8 /* Pods-SwiftFlutterCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28744428ACCB0C8771A40AB77F90A0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 761948752BEA86258013EB398FA99A78 /* PBXContainerItemProxy */;
+		};
+		4AF4BA65846B968E68E9166DBF4D7FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 62ABC16DF3048B0E267742214EC18807 /* PBXContainerItemProxy */;
+		};
+		89112FD0DAF335B38FD4703CE57069EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 002C50F6E5C53EB172F3FF3B2D29C299 /* PBXContainerItemProxy */;
+		};
+		91B85E86F65A30EB9CB13B398BEAB365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 89FAC474B253C540C3B30708F3636B25 /* PBXContainerItemProxy */;
+		};
+		A62BC2D7DB0D9435904752CF3E9EF822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = calculator_flutter;
+			target = 1A7E0AD0862C943EE8AC683E481B48EB /* calculator_flutter */;
+			targetProxy = 0185D36E88DFB2996E86BECEE398651E /* PBXContainerItemProxy */;
+		};
+		A97BF62A9282EEFF0CE5D6388E796A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 2D320170FE411404FB7E8AA33BDB00EE /* PBXContainerItemProxy */;
+		};
+		A9F65F3C42543062230FE58FB1CEBD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftFlutterCalculator";
+			target = 9782DE355BAD50FBABBAC5C1B914C5EF /* Pods-SwiftFlutterCalculator */;
+			targetProxy = 543D178921A739438062F769A4614836 /* PBXContainerItemProxy */;
+		};
+		CDB3B18A27C88723D33D2517855559EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = CF59B93C2CEC242B4DC47AD5967624A6 /* PBXContainerItemProxy */;
+		};
+		DFAFE3C33DD4BF163C5C7D181ED9BBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = calculator_flutter;
+			target = 1A7E0AD0862C943EE8AC683E481B48EB /* calculator_flutter */;
+			targetProxy = 3644C05463880BF81E55A7A2531F0919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A8907359D82ADC12708329E7A5697E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F538E41CA1378CD672923C3C6CABE1A1 /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		066A2FD2E74C32899EC23CC746B4673E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DE30CF574FCA57EF156E8D1DD2C538 /* Pods-SwiftFlutterCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculator/Pods-SwiftFlutterCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculator/Pods-SwiftFlutterCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14EA335C85658C7F76812A75F10FC645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86A1EFFAA4C38F8341510B9F71D715C /* calculator_flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7317B5454F861BCA85B5462562709C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E39D385F5D5FCD445B1EE0E69FA687D /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC254AF710D3DA171B50AC934512822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC0C66C985BEA7B18169CA174A2EEA9 /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CC79807AA88D1D081940BFE224A4CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4106746565102BA2F673490C1A8F2357 /* calculator_flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621922681A3C764E751B7E6CD8BD83F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8725D010836BA894CEB3B2A5B660AA /* Pods-SwiftFlutterCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculatorTests/Pods-SwiftFlutterCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculatorTests/Pods-SwiftFlutterCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A805983758097C7978B6D49B0D809EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7139127A8C01ECC88B5EA5BE3EE1C405 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC27EA7F5B266556D0D758B77438BFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7E70A426D42922B6E39214C4636C85 /* Pods-SwiftFlutterCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculatorTests/Pods-SwiftFlutterCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculatorTests/Pods-SwiftFlutterCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE2DF718C9FDE9373BE06055AF6BFF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A131E6D2E018BA3C4E757CD7702C383 /* Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests/Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E17060CFF179B9F54C5CFEC6B1703FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7DE72B2ADD79AC9E7648A2FD9A7D86 /* Pods-SwiftFlutterCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftFlutterCalculator/Pods-SwiftFlutterCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftFlutterCalculator/Pods-SwiftFlutterCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425592FCA067683B5F1CE96D0FF45BA1 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00470BE9A38CC7D755DFD45B84649A66 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC254AF710D3DA171B50AC934512822 /* Debug */,
+				02A8907359D82ADC12708329E7A5697E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F70BCE59B60434760782BA0DC7DE90 /* Build configuration list for PBXAggregateTarget "calculator_flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC79807AA88D1D081940BFE224A4CDD /* Debug */,
+				14EA335C85658C7F76812A75F10FC645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1215DAB08D934200D6B937BF50561FBD /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621922681A3C764E751B7E6CD8BD83F0 /* Debug */,
+				BC27EA7F5B266556D0D758B77438BFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */,
+				1A7317B5454F861BCA85B5462562709C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6487FEF38AF7FA1F90E5256C890B56C2 /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066A2FD2E74C32899EC23CC746B4673E /* Debug */,
+				E17060CFF179B9F54C5CFEC6B1703FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C1FD87F0E4D62CCC002567264FC639 /* Build configuration list for PBXNativeTarget "Pods-SwiftFlutterCalculator-SwiftFlutterCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2DF718C9FDE9373BE06055AF6BFF40 /* Debug */,
+				A805983758097C7978B6D49B0D809EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
